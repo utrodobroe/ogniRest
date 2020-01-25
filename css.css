@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    width: 100%;
+    height: 12%;
+    background-color: rgb(52, 78, 110);
+    border:1px solid rgb(52, 78, 110);
+    background-clip: padding-box;
+    border-radius:3px ;
+    opacity: 0.9;
+    box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+    top: 0;
+    position: fixed;
+    z-index: 1;
+  
+    
+}
+
+
+.buttonMenu{
+    margin: 1%;
+    position: relative;top: 13px;
+    border: none;
+    background-color: rgb(52, 78, 110);
+    border-radius: 10px;
+    width: 110px;
+    height: 30px;
+    opacity: 0.3;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    cursor: pointer;
+  
+ 
+}
+
+
+.buttonMenu:hover{
+    opacity: 1;
+    transition: 1s;
+
+ 
+}
+.contact{
+    position: relative;left: 70%;bottom: 50%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.number:hover{
+    cursor: pointer;
+}
+
+.insta{
+    position: relative;left: 87%;bottom: 80px;
+    opacity: 0.4;
+    cursor: pointer;
+}
+.facebook{
+    position: relative;left: 86%;bottom: 80px;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.phon{
+    width: 100%;
+    height: 750px;
+    background-image: url("C:/Users/sguat/Desktop/Work/site8/images/phon.jpg");
+    background-size: cover;
+    display: block;
+
+   
+
+}
+.line1{
+    box-shadow:0 30px 150px 250px  rgb(72, 114, 170);
+}
+
+.ogni{
+    font-size: 56px;
+    color:rgb(228, 189, 131);
+    margin-left: 42%;
+    margin-top: 350px;
+    line-height: 20px;
+}
+.rest{
+    font-size: 14px;
+    word-spacing: 2px;
+    margin-left: 6%;
+  
+}
+.reservation{
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 155px;
+    margin-left: 42%;
+    font-size: 12px;
+    background-color:rgb(72, 114, 170);
+    color: white;
+    opacity: 0.9;
+    cursor: pointer;
+    position:sticky;
+    margin-top: 10px;
+}
+.reservation:hover{
+    opacity: 1;
+    transition: 1s;
+}
+
+.fixedfon{
+    width: 100%;
+    height: 300px;
+    background-attachment: fixed;
+    background-image: url("C:/Users/sguat/Desktop/Work/site8/images/more.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    position: relative;
+    
+}
+
+.sentence{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    border: 4px solid white;
+    width: 200px;
+    height: 100px;
+    margin-left: 41%;
+    padding-top: 35px;
+    position: relative;top: 70px;
+   
+}
+
+.foreword{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(52, 78, 110);
+    margin-top:0;
+    display: block;
+}
+
+.forewordHeading{
+    display: inline-table;
+    text-align:center ;
+    margin-top: 20px;
+    border:1px solid black;
+    width: 200px;
+    height: 30px; 
+    margin-left: 41.5%;
+    margin-bottom:-50px;
+    padding-top: 10px;
+    color: white;
+    background-color: black;
+    position: relative;
+   
+    
+    
+}
+
+.forewordHeading:before {
+    display: block;                 
+    width:500px;                    
+    content: '';                     
+    position: absolute;              
+    border-bottom: 1px solid #000;   
+    top:50%;                         
+    right: 200px;      
+                  
+}
+
+
+
+
+.forewordHeading:after {
+    display: block;
+    width:500px;
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid #000;
+    top:50%;
+    left: 200px; 
+}
+.informForeword{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 70px;
+    border-bottom: 1px solid #000;
+    width: 1199px;
+    margin-left: 4.5%;
+    padding-bottom: 70px;
+}
+
+
+.videoRest{
+    margin-top: 10px;
+    margin-left: 15%;
+}
+
+
+.chefInfo{
+    width: 100%;
+    height: 650px;
+    
+    
+}
+
+.FhotoChef{
+    margin-left: 50%;
+    float: right;    
+}
+
+.leftcol{
+    width: 50%;
+    color: rgb(72, 114, 170);
+    vertical-align: text-top;
+    border:solid rgb(72, 114, 170) ;
+    font-size: 20px;
+}
+
+.rightcol{
+    width: 50%;
+}
+
+
