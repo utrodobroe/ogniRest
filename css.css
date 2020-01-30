@@ -7,9 +7,9 @@
     width: 100%;
     height: 12%;
     background-color: rgb(52, 78, 110);
-    border:1px solid rgb(52, 78, 110);
     background-clip: padding-box;
-    border-radius:3px ;
+    border: 1px solid rgb(52, 78, 110);
+    border-radius: 3px;
     opacity: 0.9;
     box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.3);
     top: 0;
@@ -20,9 +20,7 @@
 }
 
 
-
-
-ul{
+.menuList{
     margin: 1%;
     background-color: rgb(52, 78, 110);
     padding-top: 15px;
@@ -32,7 +30,9 @@ ul{
   
  
 }
-li{
+
+
+.menuText{
     display: inline-flex;
     word-spacing: 50px;
     opacity: 0.3;
@@ -43,12 +43,14 @@ li{
 }
 
 
-li:hover{
+.menuText:hover{
     opacity: 1;
     transition: 1s;
 
  
 }
+
+
 .contact{
     position: relative;left: 70%;bottom: 50%;
     color: white;
@@ -56,15 +58,20 @@ li:hover{
     font-size: 12px;
     padding-top: 10px;
 }
+
+
 .number:hover{
     cursor: pointer;
 }
+
 
 .insta{
     position: relative;left: 87%;bottom: 80px;
     opacity: 0.4;
     cursor: pointer;
 }
+
+
 .facebook{
     position: relative;left: 86%;bottom: 80px;
     opacity: 0.4;
@@ -78,13 +85,13 @@ li:hover{
     background-image: url("C:/Users/sguat/Desktop/Work/site8/ogniRest/images/phon.jpg");
     background-size: cover;
     display: block;
-
-   
-
 }
+
+
 .line1{
     box-shadow:0 30px 150px 250px  rgb(72, 114, 170);
 }
+
 
 .ogni{
     font-size: 56px;
@@ -93,12 +100,15 @@ li:hover{
     margin-top: 350px;
     line-height: 20px;
 }
+
+
 .rest{
     font-size: 14px;
     word-spacing: 2px;
     margin-left: 6%;
-  
 }
+
+
 .reservation{
     border: none;
     border-radius: 30px;
@@ -113,10 +123,13 @@ li:hover{
     position:sticky;
     margin-top: 10px;
 }
+
+
 .reservation:hover{
     opacity: 1;
     transition: 1s;
 }
+
 
 .fixedfon{
     width: 100%;
@@ -130,6 +143,7 @@ li:hover{
     
 }
 
+
 .sentence{
     text-align: center;
     color: white;
@@ -140,8 +154,8 @@ li:hover{
     margin-left: 41%;
     padding-top: 35px;
     position: relative;top: 70px;
-   
 }
+
 
 .foreword{
     width: 100%;
@@ -150,6 +164,7 @@ li:hover{
     margin-top:0;
     display: block;
 }
+
 
 .forewordHeading{
     display: inline-table;
@@ -164,10 +179,8 @@ li:hover{
     color: white;
     background-color: black;
     position: relative;
-   
-    
-    
 }
+
 
 .forewordHeading:before {
     display: block;                 
@@ -176,11 +189,8 @@ li:hover{
     position: absolute;              
     border-bottom: 1px solid #000;   
     top:50%;                         
-    right: 200px;      
-                  
+    right: 100%;      
 }
-
-
 
 
 .forewordHeading:after {
@@ -190,8 +200,10 @@ li:hover{
     position: absolute;
     border-bottom: 1px solid #000;
     top:50%;
-    left: 200px; 
+    left: 100%; 
 }
+
+
 .informForeword{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -199,7 +211,7 @@ li:hover{
     text-align: center;
     margin-top: 70px;
     border-bottom: 1px solid #000;
-    width: 1199px;
+    width: 89%;
     margin-left: 4.5%;
     padding-bottom: 70px;
 }
@@ -214,15 +226,15 @@ li:hover{
 .chefInfo{
     width: 100%;
     height: 651px;
-    
-    
 }
+
 
 .PhotoChef{
     margin-left: 50%;
     float: right;
     margin-bottom: 0;    
 }
+
 
 .leftcol{
     width: 50%;
@@ -235,13 +247,13 @@ li:hover{
     width: 50%;
 }
 
+
 .FoodRest{
     width: 100%;
     height: 100px;
     background-color: rgb(52, 78, 110);
-    
-
 }
+
 
 .menuRest{
     color: white;
@@ -252,20 +264,18 @@ li:hover{
     display: inline-flex;
     margin-left: 46%;
     cursor: pointer;
-    
-    
-    
-
 }
+
 
 .srcMenu{
     color: white;
     text-decoration: none;
 }
 
+
 .srcMenu:hover{
     color: rgb(5, 5, 5);
-    transition: 1s;
+    transition: 0.5s;
     border-bottom:5px solid black;
 }
 
@@ -274,12 +284,20 @@ li:hover{
     width: 100%;
     height: 764px;
 }
+
+
+.FoodPhoto{
+    width: 334px;
+    height: 380px;
+}
+
+
 .FoodPhoto:hover{
     cursor: pointer;
     filter: grayscale(1);
     transition:1s;
-
 }
+
 
 .infoInterior{
     width: 100%;
@@ -289,6 +307,7 @@ li:hover{
     margin-bottom: 0;
     display: inline-flex;
 }
+
 
 .textInterior{
     color: white;
@@ -300,8 +319,6 @@ li:hover{
     margin-top: 50px;
     margin-bottom: 35px ;
     display: block;
-
-    
 }
 
 
@@ -310,18 +327,20 @@ li:hover{
     height: 380px;
 }
 
+
 .nuvRest{
     width: 100%;
     height: 400px;
     background-color: rgb(52, 78, 110);
 }
+
+
 .operatingMode{
     float:right;
     padding-right: 30%;
     padding-top: 100px;
     font-size: 18px;
     color: white;
-
 }
 
 
